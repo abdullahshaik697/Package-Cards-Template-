@@ -7,8 +7,8 @@
         flex-wrap: wrap;
     }
     .box{
-        width: 40%;
-        height: 50vh;
+        width: 35%;
+        height: 70vh;
     }
     .head{
         font-size: 1.9rem;
@@ -30,16 +30,17 @@
     }
     .box{
         width: 40%;
-        height: 60vh;
+        height: 65vh;
     }
     .head{
-        font-size: 1.9rem;
+        font-size: 1.7rem;
     }
     .features{
         margin-left: 20px;
         font-size: 1.6rem;
     }
     .btn{
+        margin-top: 25px;
         font-size: 1.4rem;
     }
 }
@@ -49,17 +50,18 @@
     }
     .box{
         width: 40%;
-        height: 55vh;
+        height: 50vh;
     }
     .head{
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
     .features{
         margin-left: 20px;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     .btn{
-        font-size: 1.4rem;
+        margin-top: 30px;
+        font-size: 1.3rem;
     }
 }
 @media screen and (max-width:650px)  {
@@ -69,7 +71,50 @@
         align-items: center;
     }
     .box{
-        width: 50%;
+        width: 70%;
+        height: 75vh;
+    }
+    .head{
+        font-size: 2.4rem;
+    }
+    .features{
+        margin-left: 20px;
+        font-size: 1.8rem;
+    }
+    .btn{
+        font-size: 1.7rem;
+    }
+}
+@media screen and (max-width:500px)  {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        width: 70%;
+        height: 65vh;
+    }
+    .head{
+        font-size: 2rem;
+    }
+    .features{
+        margin-left: 20px;
+        font-size: 1.5rem;
+    }
+    .btn{
+        margin-top: 50px;
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:400px)  {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        width: 70%;
         height: 50vh;
     }
     .head{
@@ -77,57 +122,10 @@
     }
     .features{
         margin-left: 20px;
-        font-size: 1.3rem;
-    }
-    .btn{
-        font-size: 1.4rem;
-    }
-}
-@media screen and (max-width:450px)  {
-    .box{
-        width: 50%;
-        height: 50vh;
-    }
-    .head{
-        font-size: 1.5rem;
-    }
-    .features{
-        margin-left: 20px;
         font-size: 1.2rem;
     }
     .btn{
-        font-size: 1.1rem;
-    }
-}
-@media screen and (max-width:400px)  {
-    .box{
-        width: 50%;
-        height: 45vh;
-    }
-    .head{
-        font-size: 1.3rem;
-    }
-    .features{
-        margin-left: 20px;
-        font-size: 1rem;
-    }
-    .btn{
-        font-size: 1rem;
-    }
-}
-@media screen and (max-width:350px)  {
-    .box{
-        width: 60%;
-        height: 40vh;
-    }
-    .head{
-        font-size: 1.3rem;
-    }
-    .features{
-        margin-left: 20px;
-        font-size: 1rem;
-    }
-    .btn{
-        font-size: 0.9rem;
+        margin-top: 30px;
+        font-size: 1.2rem;
     }
 }
